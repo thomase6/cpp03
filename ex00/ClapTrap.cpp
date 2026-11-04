@@ -1,16 +1,16 @@
 #include "ClapTrap.hpp"
 #include <iostream>
 
-ClapTrap::ClapTrap() : _name(""), _hitPoints(10), _energyPoints(10), _attackDamage(0)
+ClapTrap::ClapTrap() : _name("default"), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
 	if (VERBOSE)
-		std::cout << "ClapTrap default constructor called\n";
+		std::cout << "ClapTrap " << _name << " constructor called\n";
 }
 
 ClapTrap::~ClapTrap()
 {
 	if (VERBOSE)
-		std::cout << "ClapTrap destructor called\n";
+		std::cout << "ClapTrap " << _name << " destructor called\n";
 }
 
 ClapTrap::ClapTrap(const std::string &name) : _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)
