@@ -1,8 +1,8 @@
 # include "ClapTrap.hpp"
 # include "ScavTrap.hpp"
  
- int main()
- {
+int main()
+{
 	ScavTrap serena("Serena");
 
 	serena.attack("Training Dummy");
@@ -11,4 +11,4 @@
 	serena.guardGate();
 
 	return 0;
- }
+}
