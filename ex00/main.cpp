@@ -1,7 +1,7 @@
 # include "ClapTrap.hpp"
  
- int main()
- {
+int main()
+{
 	// testing attack and running out of energy
 	ClapTrap bob("bob");
 	ClapTrap jim;
@@ -22,4 +22,4 @@
 	harold.takeDamage(1);
 
 	return 0;
- }
+}
